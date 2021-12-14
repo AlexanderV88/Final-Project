@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="Styling/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <img class="navimg" src="./Styling/Images/epicfans.png" alt="Gamer Logo"/>
+        <div class="navdiv">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    
+      <h3 style="font-family: 'Ribeye Marrow', cursive; color: #ffffff;">Contact Form</h3>
+
+<div class="contactform">
+  <form action="/action_page.php">
+    <label for="fname" style="color: #ffffff; font-family: fantasy;">First & Last Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your full name here">
+
+    <label for="lname" style="color: #ffffff; font-family: fantasy;">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Example: epicsevenfan@epicsevenfans.com">
+
+    <label for="country" style="color: #ffffff; font-family: fantasy;">Country</label>
+    <select id="country" name="country">
+      <option value="Earth">Earth</option>
+      <option value="Moon">The Moon</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject" style="color: #ffffff; font-family: fantasy;">Tell us why you love Epic Seven!</label>
+    <textarea id="subject" name="subject" placeholder="Don't be shy!" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>

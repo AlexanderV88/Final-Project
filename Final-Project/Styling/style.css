@@ -1,0 +1,217 @@
+body {
+    margin: 0 auto;
+    width: 900px;
+    border: 2px solid #ece4e4;
+    background-color: #060741;
+}
+
+.container {
+    background-color: #073f07;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* header and hero img */
+header {
+    border: 2px solid #ece4e4;
+    height: 400px;
+    text-align: center;
+    margin: 5px;
+    background-image: url(https://wallpaperaccess.com/full/1893741.png);
+    background-size: cover;
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: #a31823;
+}
+
+/* navbar */
+.navbar {
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #008080;
+    justify-content: space-evenly;
+    font-family: fantasy;
+    font-size: xx-large;
+    height: 100px;
+    border: 2px solid #ece4e4;
+}
+
+.navdiv {
+    float: right;
+}
+
+.navimg {
+    float: left;
+    height: 100px;
+}
+
+a {
+    float: left;
+    display: block;
+    color: #920b0b;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 15px;
+}
+
+a:visited {
+    color: #2c15ad;
+}
+
+a:hover {
+    background: #d87093;
+    color: #800080;
+}
+
+
+img {
+    height: 150px;
+    width: 150px;
+    float: right;
+}
+
+/* mid secton. */
+.exert {
+    width: auto;
+    height: 40px;
+    background-color: rgb(80, 11, 59);
+    text-align: center;
+    border: 2px solid #ece4e4;
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: xx-large;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.row {
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: solid;
+  }
+
+  .charname {
+      border-style: double;
+      height: 35px;
+      text-transform: uppercase;
+      font-size: xx-large;
+      border: double 2px #ffffff;
+  }
+
+  .charimage {
+      padding-right: 55px;
+      padding-bottom: 20px;
+  }
+
+  .charinfo {
+      border: 2px double #ffffff;
+      font-size: medium;
+      clear: both;
+      font-weight: bolder;
+  }
+  
+  .column {
+    float: left;
+    width: 30.6%;
+    padding: 10px;
+    height: 400px;
+    border: 2px solid #ece4e4;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* media */
+  .extra {
+      justify-content: flex-end;
+      width: auto;
+      height: 450px;
+      background-image: url(https://d3kxs6kpbh59hp.cloudfront.net/community/COMMUNITY/e309bc955b464328ba48997869baa612/e2bbd13b405047668127ef11b7f685e6_1619683690.jpg);
+      background-size: cover;
+      border: 2px solid #ece4e4;
+      text-align: center;
+  }
+
+  /* footer stuffs */
+  .footer {
+      width: auto;
+      height: 100px;
+      background-color: #04343a;
+      font-size: large;
+      font-family: fantasy;
+      border: 2px solid #ece4e4;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    float: right;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+
+  /* About Section */
+
+.aboutinfo {
+    border: solid #ffffff;
+
+}
+
+  /* contact form */
+
+  .contactform {
+      box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
